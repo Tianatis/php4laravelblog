@@ -48,7 +48,7 @@ class AuthController extends Controller
         return view('layouts.secondary', [
             'page' => 'pages.login',
             'title' => 'Вход в систему',
-            'content' => '<p>Привет, меня зовут Дмитрий Юрьев и я веб разработчик!</p>',
+            'content' => '<p>Привет, этот блог создан в рамках курса PHP Strong (PHP4)!</p>',
             'activeMenu' => 'feedback',
         ]);
     }
